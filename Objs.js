@@ -11,7 +11,7 @@ const JsUser = {
     loc: "Vadodara",
     email: "anshulbaria192@gmail.com",
     isloggedIN: false,
-    lastLoginDays:["mon","satur"]
+    lastLoginDays:["monday","saturday"]
 }
 // console.log(JsUser["email"]);
 // console.log(JsUser.Full_Name);
