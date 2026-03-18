@@ -1,4 +1,4 @@
-const tinderUser = new Object() 
+ const tinderUser = new Object() 
 // const AnotherUser ={} none singleton object
 // console.log(tinderUser);// SINGILETON OBJECT
 
@@ -12,7 +12,7 @@ const regularUser = {
     fullName : {
         userFullName:{
             userFullName : "ANshul",
-            lastName :"Baria"
+            lastName :"Baria" 
         }
     }
 }

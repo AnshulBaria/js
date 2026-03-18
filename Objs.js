@@ -15,7 +15,7 @@ const JsUser = {
 }
 // console.log(JsUser["email"]);
 // console.log(JsUser.Full_Name);
-// console.log(JsUser[MySym]);
+// console.log(JsUser[MySym]); 
 // console.log(typeof MySym);
 
 JsUser.email = "ansh@gmail.com"
