@@ -34,4 +34,24 @@ function loginUser(username="sam"){
 function calculateBill(...num1){
 return num1;
 }
-console.log(calculateBill(200,300,400));
+// console.log(calculateBill(200,300,400));
+
+const user ={
+    username:"anshul Baria",
+    rollnunmber:189
+}
+function handleObject(anyobject){
+    console.log(`Username: ${anyobject.username}, Roll Number: ${anyobject.rollnunmber}`);
+}
+handleObject(user);
+handleObject({
+    username:"neel",
+    rollnunmber:190
+});
+
+const MYNewArry =[100,200,300,600]
+function returnSecondValue(arr){
+    return arr[1];
+}
+// console.log(returnSecondValue(MYNewArry));
+console.log(returnSecondValue([10,20,40,60]));
