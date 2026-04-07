@@ -15,7 +15,6 @@ switch (day) {
         default:
             console.log("it's some other day");
 }
-
 // switch statement with conditions
 // switch (true) {
 //     case (balance < 500):
