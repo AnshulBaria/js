@@ -15,3 +15,15 @@ switch (day) {
         default:
             console.log("it's some other day");
 }
+
+// switch statement with conditions
+// switch (true) {
+//     case (balance < 500):
+//         console.log("less than 500");
+//         break;
+//     case (balance > 500 && balance < 1000):
+//         console.log("between 500 and 1000");
+//         break;
+//     default:
+//         console.log("greater than 1000");
+// }
