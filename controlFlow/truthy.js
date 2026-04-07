@@ -19,6 +19,7 @@ if (userEmail){
 
 // truthy values in js
 // "0"
+// " "
 // "false"
 // []
 // {}
