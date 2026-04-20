@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document DOM </title>
+</head>
+
+<body style="background-color: #212121; color: aliceblue; ">
+
+</body>
+<script>
+    const Div = document.createElement("h1");
+    Div.innerText = "Hello World";
+    console.log(Div);
+    Div.className = "main"
+    Div.id = "heading"
+    const div = document.createElement("div");
+    div.setAttribute("title", "generated title")
+    div.style.color="red"
+    div.style.padding="10px"
+    div.innerText = "This is a div element"
+    document.body.appendChild(Div);
+    document.body.appendChild(div);
+</script>
+
+</html>
