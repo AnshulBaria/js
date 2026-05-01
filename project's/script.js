@@ -6,7 +6,7 @@ const body = document.querySelector("body");
 
 colore.forEach(function(button){
     // console.log(colore);
-    button.addEventListener("click", function(a){
+    button.addEventListener("click", function(a){ // "a" stands for evant
         // console.log(a);
         // console.log(a.target);
     if(a.target.id === "grey"){
