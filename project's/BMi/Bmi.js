@@ -8,10 +8,10 @@ form.addEventListener("submit", function(e) {
     const weight = parseFloat(document.querySelector('#weight').value)
 
     if (!height || !weight) {
-        results.textContent = 'Please enter both height and weight.'
+        results.innerHTML = '<span>Please enter both height and weight.</span>'
         return
     }
 
     const bmi = weight / ((height / 100) ** 2)
-    results.textContent = `Your BMI is ${bmi.toFixed(1)}`
-})
+    results.innerHTML = `<span>Your BMI is ${bmi.toFixed(1)}</span>`}
+)
